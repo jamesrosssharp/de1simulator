@@ -119,7 +119,7 @@ int init(int dummy)
 
 	if (pid == 0)
 	{
-		execvp("/home/jrsharp/code/FPGA/de1_board_simulator/ui/build-de1simulator-Desktop-Debug/de1simulator", argv);
+		execvp("/home/jrsharp/code/FPGA/de1simulator/ui/build-de1simulator-Desktop-Debug/de1simulator", argv);
 	}
 
 	return 0;
