@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>pb1.png</file>
+        <file>pb2.png</file>
+        <file>sb1.png</file>
+        <file>sb2.png</file>
+        <file>LED.png</file>
+        <file>LED-red.png</file>
+        <file>LED-green.png</file>
+        <file>hex-display.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>676</width>
+    <height>150</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+     <horstretch>1</horstretch>
+     <verstretch>1</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: #000080 ;
+</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="0" colspan="2">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <property name="rightMargin">
+       <number>10</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="REDLED01">
+        <property name="minimumSize">
+         <size>
+          <width>27</width>
+          <height>29</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+background: #000080 url(:/icons/LED.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;
+}</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="REDLED02">
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+background: #000080 url(:/icons/LED.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;
+}background: #000080 url(:/icons/pb1.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="REDLED03">
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+background: #000080 url(:/icons/LED.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;
+}background: #000080 url(:/icons/pb1.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="REDLED04">
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+background: #000080 url(:/icons/LED.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;
+}background: #000080 url(:/icons/pb1.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="REDLED05">
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+background: #000080 url(:/icons/LED.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;
+}background: #000080 url(:/icons/pb1.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="REDLED06">
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+background: #000080 url(:/icons/LED.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;
+}background: #000080 url(:/icons/pb1.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="REDLED07">
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+background: #000080 url(:/icons/LED.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;
+}background: #000080 url(:/icons/pb1.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="REDLED08">
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+background: #000080 url(:/icons/LED.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;
+}background: #000080 url(:/icons/pb1.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="REDLED09">
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+background: #000080 url(:/icons/LED.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;
+}background: #000080 url(:/icons/pb1.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="REDLED10">
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+background: #000080 url(:/icons/LED.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;
+}background: #000080 url(:/icons/pb1.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <layout class="QHBoxLayout" name="HEXDISPLAYBOX">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="sizeConstraint">
+       <enum>QLayout::SetMaximumSize</enum>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+     </layout>
+    </item>
+    <item row="1" column="1">
+     <spacer name="horizontalSpacer_5">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>325</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="3" column="4">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="KEY1">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: #000080 url(:/icons/pb1.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;
+}
+
+QPushButton:pressed {
+background: #000080 url(:/icons/pb2.png) no-repeat center;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="KEY2">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: #000080 url(:/icons/pb1.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;
+}
+
+QPushButton:pressed {
+background: #000080 url(:/icons/pb2.png) no-repeat center;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="KEY3">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: #000080 url(:/icons/pb1.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;
+}
+
+QPushButton:pressed {
+background: #000080 url(:/icons/pb2.png) no-repeat center;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="KEY4">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: #000080 url(:/icons/pb1.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;
+}
+
+QPushButton:pressed {
+background: #000080 url(:/icons/pb2.png) no-repeat center;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="3" column="2">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="3" column="0" colspan="2">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <property name="leftMargin">
+       <number>10</number>
+      </property>
+      <item>
+       <widget class="QCheckBox" name="SLIDESWITCH01">
+        <property name="minimumSize">
+         <size>
+          <width>22</width>
+          <height>45</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox {
+	background: #000080  no-repeat center;
+	border: none;
+}
+
+QCheckBox::indicator {
+	width: 22px;
+	height: 45px;
+}
+
+QCheckBox::indicator:unchecked {
+	image: url(:/icons/sb2.png)
+}
+
+QCheckBox::indicator:checked {
+	image: url(:/icons/sb1.png)
+}
+</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="SLIDESWITCH02">
+        <property name="styleSheet">
+         <string notr="true">QCheckBox {
+	background: #000080  no-repeat center;
+	border: none;
+}
+
+QCheckBox::indicator {
+	width: 22px;
+	height: 45px;
+}
+
+QCheckBox::indicator:unchecked {
+	image: url(:/icons/sb2.png)
+}
+
+QCheckBox::indicator:checked {
+	image: url(:/icons/sb1.png)
+}
+</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="SLIDESWITCH03">
+        <property name="styleSheet">
+         <string notr="true">QCheckBox {
+	background: #000080  no-repeat center;
+	border: none;
+}
+
+QCheckBox::indicator {
+	width: 22px;
+	height: 45px;
+}
+
+QCheckBox::indicator:unchecked {
+	image: url(:/icons/sb2.png)
+}
+
+QCheckBox::indicator:checked {
+	image: url(:/icons/sb1.png)
+}
+</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="SLIDESWITCH04">
+        <property name="styleSheet">
+         <string notr="true">QCheckBox {
+	background: #000080  no-repeat center;
+	border: none;
+}
+
+QCheckBox::indicator {
+	width: 22px;
+	height: 45px;
+}
+
+QCheckBox::indicator:unchecked {
+	image: url(:/icons/sb2.png)
+}
+
+QCheckBox::indicator:checked {
+	image: url(:/icons/sb1.png)
+}
+</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="SLIDESWITCH05">
+        <property name="styleSheet">
+         <string notr="true">QCheckBox {
+	background: #000080  no-repeat center;
+	border: none;
+}
+
+QCheckBox::indicator {
+	width: 22px;
+	height: 45px;
+}
+
+QCheckBox::indicator:unchecked {
+	image: url(:/icons/sb2.png)
+}
+
+QCheckBox::indicator:checked {
+	image: url(:/icons/sb1.png)
+}
+</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="SLIDESWITCH06">
+        <property name="styleSheet">
+         <string notr="true">QCheckBox {
+	background: #000080  no-repeat center;
+	border: none;
+}
+
+QCheckBox::indicator {
+	width: 22px;
+	height: 45px;
+}
+
+QCheckBox::indicator:unchecked {
+	image: url(:/icons/sb2.png)
+}
+
+QCheckBox::indicator:checked {
+	image: url(:/icons/sb1.png)
+}
+</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="SLIDESWITCH07">
+        <property name="styleSheet">
+         <string notr="true">QCheckBox {
+	background: #000080  no-repeat center;
+	border: none;
+}
+
+QCheckBox::indicator {
+	width: 22px;
+	height: 45px;
+}
+
+QCheckBox::indicator:unchecked {
+	image: url(:/icons/sb2.png)
+}
+
+QCheckBox::indicator:checked {
+	image: url(:/icons/sb1.png)
+}
+</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="SLIDESWITCH08">
+        <property name="styleSheet">
+         <string notr="true">QCheckBox {
+	background: #000080  no-repeat center;
+	border: none;
+}
+
+QCheckBox::indicator {
+	width: 22px;
+	height: 45px;
+}
+
+QCheckBox::indicator:unchecked {
+	image: url(:/icons/sb2.png)
+}
+
+QCheckBox::indicator:checked {
+	image: url(:/icons/sb1.png)
+}
+</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="SLIDESWITCH09">
+        <property name="styleSheet">
+         <string notr="true">QCheckBox {
+	background: #000080  no-repeat center;
+	border: none;
+}
+
+QCheckBox::indicator {
+	width: 22px;
+	height: 45px;
+}
+
+QCheckBox::indicator:unchecked {
+	image: url(:/icons/sb2.png)
+}
+
+QCheckBox::indicator:checked {
+	image: url(:/icons/sb1.png)
+}
+</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="SLIDESWITCH10">
+        <property name="styleSheet">
+         <string notr="true">QCheckBox {
+	background: #000080  no-repeat center;
+	border: none;
+}
+
+QCheckBox::indicator {
+	width: 22px;
+	height: 45px;
+}
+
+QCheckBox::indicator:unchecked {
+	image: url(:/icons/sb2.png)
+}
+
+QCheckBox::indicator:checked {
+	image: url(:/icons/sb1.png)
+}
+</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="4">
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLabel" name="GREENLED01">
+        <property name="minimumSize">
+         <size>
+          <width>27</width>
+          <height>29</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+background: #000080 url(:/icons/LED.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;
+}background: #000080 url(:/icons/pb1.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="GREENLED02">
+        <property name="minimumSize">
+         <size>
+          <width>27</width>
+          <height>29</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+background: #000080 url(:/icons/LED.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;
+}background: #000080 url(:/icons/pb1.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="GREENLED03">
+        <property name="minimumSize">
+         <size>
+          <width>27</width>
+          <height>29</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+background: #000080 url(:/icons/LED.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;
+}background: #000080 url(:/icons/pb1.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="GREENLED04">
+        <property name="minimumSize">
+         <size>
+          <width>27</width>
+          <height>29</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+background: #000080 url(:/icons/LED.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;
+}background: #000080 url(:/icons/pb1.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="GREENLED05">
+        <property name="minimumSize">
+         <size>
+          <width>27</width>
+          <height>29</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+background: #000080 url(:/icons/LED.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;
+}background: #000080 url(:/icons/pb1.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="GREENLED06">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>27</width>
+          <height>29</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+background: #000080 url(:/icons/LED.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;
+}background: #000080 url(:/icons/pb1.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="GREENLED07">
+        <property name="minimumSize">
+         <size>
+          <width>27</width>
+          <height>29</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+background: #000080 url(:/icons/LED.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;
+}background: #000080 url(:/icons/pb1.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="GREENLED08">
+        <property name="minimumSize">
+         <size>
+          <width>27</width>
+          <height>29</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+background: #000080 url(:/icons/LED.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;
+}background: #000080 url(:/icons/pb1.png) no-repeat center;
+	border: none;
+	height: 42px;
+	width: 44px;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="2">
+     <spacer name="horizontalSpacer_4">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="1" column="2">
+     <spacer name="horizontalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="1" column="4">
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>KEY1</sender>
+   <signal>pressed()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>key1Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>427</x>
+     <y>68</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>332</x>
+     <y>61</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KEY2</sender>
+   <signal>pressed()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>key2Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>493</x>
+     <y>68</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>332</x>
+     <y>61</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KEY3</sender>
+   <signal>pressed()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>key3Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>559</x>
+     <y>68</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>332</x>
+     <y>61</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KEY4</sender>
+   <signal>pressed()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>key4Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>625</x>
+     <y>68</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>332</x>
+     <y>61</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KEY1</sender>
+   <signal>released()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>key1Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>427</x>
+     <y>68</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>332</x>
+     <y>61</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KEY2</sender>
+   <signal>released()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>key2Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>493</x>
+     <y>68</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>332</x>
+     <y>61</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KEY3</sender>
+   <signal>released()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>key3Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>559</x>
+     <y>68</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>332</x>
+     <y>61</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KEY4</sender>
+   <signal>released()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>key4Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>625</x>
+     <y>68</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>332</x>
+     <y>61</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>key1Pressed()</slot>
+  <slot>key2Pressed()</slot>
+  <slot>key3Pressed()</slot>
+  <slot>key4Pressed()</slot>
+  <slot>key1Released()</slot>
+  <slot>key2Released()</slot>
+  <slot>key3Released()</slot>
+  <slot>key4Released()</slot>
+ </slots>
+</ui>

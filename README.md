@@ -1,2 +1,2 @@
 # de1simulator
-Simulator for Alter DE1 board with ghdl
+Simulator for Altera DE1 board with ghdl
